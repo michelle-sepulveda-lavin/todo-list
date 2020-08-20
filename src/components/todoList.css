@@ -2,7 +2,6 @@
     cursor: pointer; 
     border-radius: 10px;
     background: rgba(226, 175, 7, 0.829);
-    width: 40rem;
 }
 
 ul li {
@@ -13,26 +12,20 @@ ul li {
     font-family: 'Courgette', cursive;
     font-weight: lighter;
     border-bottom: 1px dashed black;
-    margin-right: 5rem;
 }
 
 ul li:hover::after{
     cursor: pointer;
     content: "X";
-    float: right;
- 
+    float: right; 
 }
 
 input {
-    width: 30rem;
+    font-size: 1.3rem;
     height: 2.5rem;
-    font-size: 1.6rem;
     border: none;
     font-family: 'Courgette', cursive;
     font-weight: lighter;
-    float: left;
-    margin-left: 1rem;
-
 }
 
 h1{
@@ -41,15 +34,13 @@ h1{
     font-size: 4rem;
 }
 
-#notas{
-    width: 40rem;
-}
-
-span{
-    font-size: 1.8rem;
+#noTask{
     color: midnightblue;
-    padding-right: 15px;
     font-family: 'Courgette', cursive;
+    border:none;
+}
+#noTask:hover::after{
+    content: " ";
 }
 #cantidad {
     font-family: 'Abril Fatface', cursive;

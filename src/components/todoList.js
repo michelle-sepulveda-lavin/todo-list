@@ -3,7 +3,6 @@ import './todoList.css'
 import Tasks from './tasks';
 import AddTask from './addTask';
 
-//Arreglar responsividad.
 
 const TodoList = () => {
 
@@ -24,11 +23,9 @@ const TodoList = () => {
             return auxiliar
         }) 
     }
-
     
-
     return (
-        <div className="container text-center col-10 col-md-6 mt-5">
+        <div className="container text-center  border col-10 col-md-6 mt-5">
             <div className="row">
                 <div className="col-12 text-center m-auto">
                     <h1 className="pt-3">ToDo List</h1>
